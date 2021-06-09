@@ -37,6 +37,33 @@ li {
   background-color:#007175;
 }
 
+.footer {
+    background-color: rgb(4, 68, 68);
+    color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 50px ;
+    padding: 20px 30px 20px 30px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
