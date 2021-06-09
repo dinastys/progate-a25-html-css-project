@@ -288,7 +288,7 @@ body {
   max-width: 660px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h2{
+.intro {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: whitesmoke;
   font-size: 48px;
@@ -415,3 +415,76 @@ h3{
   font-size: 20px;
   color: #95a5a6;
 }
+@media all and (max-width: 1000px) {
+  .main-item{            
+          width: 100%;
+          padding-left: 27px;
+          padding-right: 27px;
+          padding-top: 25px;
+          margin-top: 40px;            
+          font-size: 14px;            
+  }
+  .item1{     
+          margin-left: 5px;
+          margin-right: 5px;
+          min-height: 200px;            
+          line-height: 24px;
+  }
+  .item2  {     
+      margin-left: 5px;
+      margin-right: 5px;
+      min-height: 200px;            
+      line-height: 24px;
+  }
+  .item3{     
+      margin-left: 5px;
+      margin-right: 5px;
+      min-height: 200px;            
+      line-height: 24px;
+  }
+  .img1{
+      height: 450px;
+      width: 600px;
+  }
+  .img2{
+      height: 450px;
+      width: 600px;
+  }
+}
+@media all and (max-width: 670px) {
+  .intro{
+    font-size: 28px;
+  }
+  .text-span{
+    font-size: 28px;
+  }
+  .intro-sentence {
+    font-size: 16px;
+  }
+  .body-title{
+    margin-left: 15px;
+    font-size: 28px;
+  }
+  .img1{
+    margin-left: 15px;
+    height: 300px;
+    width: 400px;
+  }
+  .img2{
+    margin-left: 15px;
+    height: 300px;
+    width: 400px;
+  }
+  .container-main{        
+    padding-left: 20px;              
+  }
+  .body2-top{
+    padding-left: 20px;
+  }
+  .body2-title{
+    font-size: 28px;
+  }
+  .body2-p{
+    font-size: 16px;
+  }
+}   
