@@ -11,30 +11,68 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-li {
-    list-style: none;
+   body {
+    margin: 0;
 }
 
-.header {
-  background-color: #006266;
-  color: #fff;
-  height: 90px;
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #006266;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .header-logo {
-  float: left;
-  font-size: 40px;
-  padding: 25px 80px;
+padding: 25px 15px;
+font-size: 40px;
 }
 
-.header-list li {
-  float: right;
-  font-size: 20px;
-  padding: 33px 30px;
+.header-left {
+    float: left;
 }
 
-.selected {
-  background-color:#007175;
+.header-right {
+    float: right;
+    margin-right: -10px;
+}
+
+.header-right a {
+    line-height: 80px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
 /*
